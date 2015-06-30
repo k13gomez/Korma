@@ -1,4 +1,8 @@
 (defproject k13gomez/korma "0.5.0-SNAPSHOT"
+  :license {:name "Eclipse Public License - v 1.0"
+            :url "http://www.eclipse.org/legal/epl-v10.html"
+            :distribution :repo
+            :comments "same as Clojure"}
   :description "Tasty SQL for Clojure"
   :url "http://github.com/k13gomez/Korma"
   :mailing-list {:name "Korma Google Group"
