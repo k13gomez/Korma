@@ -1,12 +1,12 @@
-(defproject korma "0.5.0-SNAPSHOT"
+(defproject k13gomez/korma "0.5.0-SNAPSHOT"
   :description "Tasty SQL for Clojure"
-  :url "http://github.com/korma/Korma"
+  :url "http://github.com/k13gomez/Korma"
   :mailing-list {:name "Korma Google Group"
                  :subscribe "https://groups.google.com/group/sqlkorma"}
   :codox {:exclude [korma.sql.engine
                     korma.sql.fns
                     korma.sql.utils]
-          :src-dir-uri "https://github.com/korma/Korma/blob/master/"
+          :src-dir-uri "https://github.com/k13gomez/Korma/blob/release/"
           :src-linenum-anchor-prefix "L"}
 
   :dependencies [[org.clojure/clojure "1.7.0"]
